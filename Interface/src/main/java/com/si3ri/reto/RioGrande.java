@@ -42,8 +42,8 @@ public class RioGrande {
             String nombreBusqueda = scanner.nextLine(); // Espera que el usuario ingrese una cadena de texto. El texto ingresado por el usuario se almacena en la variable 'nombreBusqueda'.
             System.out.println();
 
-            if (maestro.getNombre().equals(nombreBusqueda)) { // Comprueba si el nombre ingresado coincide con el nombre del 'main.java.com.si3ri.reto.Maestro', se utiliza la palabara reservada 'equals'.
-                maestro.imprimirPerfil(); // Se llama a 'main.java.com.si3ri.reto.Maestro' y se imprime el perfil del main.java.com.si3ri.reto.Maestro.
+            if (maestro.getNombre().equals(nombreBusqueda)) { // Comprueba si el nombre ingresado coincide con el nombre del 'Maestro', se utiliza la palabara reservada 'equals'.
+                maestro.imprimirPerfil(); // Se llama a 'Maestro' y se imprime el perfil del Maestro.
                 System.out.println();
                 System.out.println("=====ESPERANDO QUE SU CONSULTA HAYA SIDO SATISFACTORIA=====");
                 System.out.println();
